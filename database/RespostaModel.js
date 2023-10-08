@@ -1,7 +1,7 @@
 const sequelize = require("sequelize");
 const conection = require("./database");
 
-// Relacionamento CRU (simples)
+// Relacionamento "CRU" (simples)
 const Resposta = conection.define("respostas", {
     corpo: {
         type: sequelize.TEXT,
